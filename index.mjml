@@ -1,0 +1,69 @@
+<mjml>
+  <mj-head>
+    <mj-attributes> </mj-attributes>
+  </mj-head>
+  <mj-body background-color="lightgrey">
+    <mj-hero
+      mode="fixed-height"
+      background-color="#F4F4F4"
+      height="470px"
+      background-width="600px"
+      background-height="9px"
+      padding="160px 0 100px 0"
+    >
+      <mj-text align="center">* SAVANNAH BEE COMPANY *</mj-text>
+      <mj-text align="center">HEALTH & BEAUTY</mj-text>
+    </mj-hero>
+
+    <mj-section background-color="#e3e3e3">
+      <mj-column padding="50px">
+        <mj-text align="center">Product 1</mj-text>
+      </mj-column>
+      <mj-column padding="50px">
+        <mj-text align="center">Product 2</mj-text>
+      </mj-column>
+      <mj-column padding="50px">
+        <mj-text align="center">Product 3</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#e3e3e3">
+      <mj-column background-color="#FFFFFF">
+        <mj-text align="center">Product 1</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center">Product 2</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#e3e3e3">
+      <mj-column>
+        <mj-text align="center">Product 3</mj-text>
+      </mj-column>
+      <mj-column background-color="#FFFFFF">
+        <mj-text align="center">Product 4</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#e3e3e3">
+      <mj-column background-color="#FFFFFF">
+        <mj-text align="center">Product 5</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center">Product 6</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#e3e3e3">
+      <mj-column background-color="#FFFFFF" padding="50px">
+        <mj-text align="center">Product 7</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#e3e3e3">
+      <mj-column background-color="#FFFFFF" padding="100px">
+        <mj-text align="center">FOOTER</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
