@@ -3,54 +3,130 @@
     <mj-attributes> </mj-attributes>
   </mj-head>
   <mj-body background-color="lightgrey">
+    <mj-section background-color="#FFFFFF" padding="8px">
+      <mj-column>
+        <mj-image
+          width="80px"
+          src="//savannahbee.com/cdn/shop/files/bee.png?v=1657870457"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- hero -->
     <mj-hero
       mode="fixed-height"
       background-color="#F4F4F4"
-      height="470px"
+      background-url="img/beauty_gifts.jpg"
+      height="400px"
       background-width="600px"
       background-height="9px"
-      padding="160px 0 100px 0"
+      padding="120px 0"
     >
-      <mj-text align="center">* SAVANNAH BEE COMPANY *</mj-text>
-      <mj-text align="center">HEALTH & BEAUTY</mj-text>
+      <mj-text align="center" color="#FFFFFF" font-size="36px" font-weight="500"
+        >* SAVANNAH BEE COMPANY *</mj-text
+      >
+      <mj-text align="center" color="#FFFFFF" font-size="24px"
+        >HEALTH & BEAUTY</mj-text
+      >
     </mj-hero>
+    <!-- /hero -->
 
-    <mj-section background-color="#e3e3e3">
-      <mj-column padding="50px">
-        <mj-text align="center">Product 1</mj-text>
-      </mj-column>
-      <mj-column padding="50px">
-        <mj-text align="center">Product 2</mj-text>
-      </mj-column>
-      <mj-column padding="50px">
-        <mj-text align="center">Product 3</mj-text>
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-image width="180px" src="img/beauty_gifts_3.jpg"></mj-image>
+        <!-- <mj-text align="center" font-size="24px">Gifts</mj-text> -->
+        <!-- <mj-text align="center" font-size="12px"
+          >Show off your excellent taste with gifts from Savannah Bee Co.!
+          Delicious sampler sets and bundles of our signature beauty products
+          are sure to please—and no one can ever have enough of our
+          gorgeously-packaged honeys. Got an impossible person on your list?
+          There’s always a Savannah Bee Co. gift certificate.</mj-text
+        > -->
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#e3e3e3">
-      <mj-column background-color="#FFFFFF">
-        <mj-text align="center">Product 1</mj-text>
-      </mj-column>
+    <mj-section background-color="#F4F4F4">
       <mj-column>
-        <mj-text align="center">Product 2</mj-text>
+        <mj-text align="center" font-size="24px">Featured Products</mj-text>
+        <mj-text align="center" font-size="14px"
+          >We believe health and beauty originate in nature. Our products are
+          backed by research and designed to gently cleanse, hydrate, and soften
+          skin with the power of beeswax, royal jelly, honey, and propolis
+          straight from the hive. Bee well. Feel well. Do well.
+        </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#e3e3e3">
-      <mj-column>
-        <mj-text align="center">Product 3</mj-text>
-      </mj-column>
-      <mj-column background-color="#FFFFFF">
-        <mj-text align="center">Product 4</mj-text>
-      </mj-column>
+    <!-- products -->
+    <mj-section background-color="#FFFFFF" padding="40px 0 0 0">
+      <mj-group>
+        <mj-column background-color="#f4f4f4">
+          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text align="center">Body Care</mj-text>
+          <mj-text align="center"
+            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
+          >
+        </mj-column>
+      </mj-group>
     </mj-section>
 
-    <mj-section background-color="#e3e3e3">
-      <mj-column background-color="#FFFFFF">
-        <mj-text align="center">Product 5</mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text align="center">Product 6</mj-text>
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center">Lip Care</mj-text>
+          <mj-text align="center"
+            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
+          >
+        </mj-column>
+        <mj-column background-color="#f4f4f4">
+          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-group>
+        <mj-column background-color="#f4f4f4">
+          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text align="center">Skin Care</mj-text>
+          <mj-text align="center"
+            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
+          >
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center">Wellness</mj-text>
+          <mj-text align="center"
+            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
+          >
+        </mj-column>
+        <mj-column background-color="#f4f4f4">
+          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- /products -->
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column padding="50px">
+        <mj-button background-color="#002855" align="center" font-size="16px"
+          >Get Shopping Now</mj-button
+        >
       </mj-column>
     </mj-section>
 
@@ -60,10 +136,12 @@
       </mj-column>
     </mj-section>
 
+    <!-- footer -->
     <mj-section background-color="#e3e3e3">
       <mj-column background-color="#FFFFFF" padding="100px">
         <mj-text align="center">FOOTER</mj-text>
       </mj-column>
     </mj-section>
+    <!-- /footer -->
   </mj-body>
 </mjml>
