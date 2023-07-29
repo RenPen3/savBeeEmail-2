@@ -15,7 +15,7 @@
     <mj-hero
       mode="fixed-height"
       background-color="#F4F4F4"
-      background-url="img/beauty_gifts.jpg"
+      background-url="img/beauty_gifts_Opt.jpg"
       height="400px"
       background-width="600px"
       background-height="9px"
@@ -44,9 +44,12 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#F4F4F4">
-      <mj-column>
-        <mj-text align="center" font-size="24px">Featured Products</mj-text>
+    <mj-section background-color="#FFFFFF">
+      <mj-column padding="0 20px">
+        <mj-image width="50px" src="img/savBee_solo_logo.png" />
+
+        <mj-text align="center" font-size="18px">Featured Products</mj-text>
+        <mj-text align="center" font-size="32px">Health & Beauty</mj-text>
         <mj-text align="center" font-size="14px"
           >We believe health and beauty originate in nature. Our products are
           backed by research and designed to gently cleanse, hydrate, and soften
@@ -59,11 +62,13 @@
     <!-- products -->
     <mj-section background-color="#FFFFFF" padding="40px 0 0 0">
       <mj-group>
-        <mj-column background-color="#f4f4f4">
+        <mj-column background-color="#f4f4f4" padding="50px 0">
           <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
         </mj-column>
-        <mj-column>
-          <mj-text align="center">Body Care</mj-text>
+        <mj-column padding="50px 0">
+          <mj-text font-size="16px" font-weight="500" align="center"
+            >Body Care</mj-text
+          >
           <mj-text align="center"
             >Product Dscription: Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -75,27 +80,31 @@
 
     <mj-section background-color="#FFFFFF" padding="0">
       <mj-group>
-        <mj-column>
-          <mj-text align="center">Lip Care</mj-text>
+        <mj-column padding="50px 0">
+          <mj-text font-size="16px" font-weight="500" align="center"
+            >Lip Care</mj-text
+          >
           <mj-text align="center"
             >Product Dscription: Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
           >
         </mj-column>
-        <mj-column background-color="#f4f4f4">
-          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
+        <mj-column background-color="#f4f4f4" padding="50px 0">
+          <mj-image width="150px" src="img/lip_care.webp"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
 
     <mj-section background-color="#FFFFFF" padding="0">
       <mj-group>
-        <mj-column background-color="#f4f4f4">
-          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
+        <mj-column background-color="#f4f4f4" padding="50px 0">
+          <mj-image width="150px" src="img/skin_care_2.webp"></mj-image>
         </mj-column>
-        <mj-column>
-          <mj-text align="center">Skin Care</mj-text>
+        <mj-column padding="50px 0">
+          <mj-text font-size="16px" font-weight="500" align="center"
+            >Skin Care</mj-text
+          >
           <mj-text align="center"
             >Product Dscription: Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -107,16 +116,18 @@
 
     <mj-section background-color="#FFFFFF" padding="0">
       <mj-group>
-        <mj-column>
-          <mj-text align="center">Wellness</mj-text>
+        <mj-column padding="50px 0">
+          <mj-text font-size="16px" font-weight="500" align="center"
+            >Wellness</mj-text
+          >
           <mj-text align="center"
             >Product Dscription: Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
           >
         </mj-column>
-        <mj-column background-color="#f4f4f4">
-          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
+        <mj-column background-color="#f4f4f4" padding="50px 0">
+          <mj-image width="150px" src="img/wellness_3.webp"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -124,20 +135,58 @@
 
     <mj-section background-color="#FFFFFF">
       <mj-column padding="50px">
-        <mj-button background-color="#002855" align="center" font-size="16px"
+        <mj-button
+          background-color="#FFFFFF"
+          border="1px solid #002855"
+          color="#002855"
+          align="center"
+          font-size="16px"
           >Get Shopping Now</mj-button
         >
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#e3e3e3">
-      <mj-column background-color="#FFFFFF" padding="50px">
-        <mj-text align="center">Product 7</mj-text>
+    <!-- <mj-hero
+      mode="fixed-height"
+      background-url="img/owner_Opt.jpg"
+      height="470px"
+      background-width="600px"
+      background-height="9px"
+      padding="180px 0 100px 0"
+    > -->
+    <mj-section background-color="#FFFFFF">
+      <mj-column background-color="#FFFFFF">
+        <mj-text
+          line-height="1.2"
+          font-size="26px"
+          align="center"
+          color="#000000"
+          >Our mission has always been about the bees.</mj-text
+        >
+        <mj-text
+          padding="40px 20px 40px 20px"
+          line-height="1.5"
+          font-size="18px"
+          align="center"
+          color="#000000"
+          >With each jar of honey, bee-powered beauty product, and cultivated
+          hive, we’re working to save the bees. And with every purchase from
+          Savannah Bee Company –you are too.</mj-text
+        >
+
+        <mj-button
+          color="#002855"
+          background-color="#FFFFFF"
+          border="1px solid #002855"
+          >Learn More</mj-button
+        >
       </mj-column>
     </mj-section>
 
+    <!-- </mj-hero> -->
+
     <!-- footer -->
-    <mj-section background-color="#e3e3e3">
+    <mj-section background-color="#FFFFFF">
       <mj-column background-color="#FFFFFF" padding="100px">
         <mj-text align="center">FOOTER</mj-text>
       </mj-column>
