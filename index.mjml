@@ -187,10 +187,113 @@
 
     <!-- footer -->
     <mj-section background-color="#FFFFFF">
-      <mj-column background-color="#FFFFFF" padding="100px">
-        <mj-text align="center">FOOTER</mj-text>
+      <mj-column background-color="#FFFFFF">
+        <mj-image width="70px" src="img/savBee_solo_logo.png" />
       </mj-column>
     </mj-section>
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column background-color="#FFFFFF" padding="0">
+        <mj-text align="center">#SAVETHEBEES</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- <mj-section background-color="#FFFFFF" padding="70px 20px 40px 20px">
+      <mj-column>
+        <mj-image padding="0" width="100px" src="//savannahbee.com/cdn/shop/files/bee.png?v=1657870457" href="https://savannahbee.com/">
+      </mj-column>
+    </mj-section> -->
+    <mj-section background-color="#FFFFFF" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-text
+          line-height="0.5"
+          font-family="Typeka"
+          align="center"
+          font-size="20px"
+          font-weight="500"
+          color="#002855"
+          >Contact</mj-text
+        >
+        <mj-text
+          padding-bottom="30px"
+          line-height="1.5"
+          align="center"
+          font-size="16px"
+          color="#002855"
+          >Manager: Monica Kenyon <br />
+          Email: monica@savannahbee.com <br />
+          Phone: (928) 862-2996</mj-text
+        >
+        <mj-text
+          line-height="0.5"
+          font-family="Typeka"
+          align="center"
+          font-size="20px"
+          font-weight="500"
+          color="#002855"
+          >Address</mj-text
+        >
+        <mj-text
+          line-height="1.5"
+          align="center"
+          font-size="16px"
+          color="#002855"
+          >390 N State Route 89A <br />
+          Sedona, AZ 8633 <br />
+          You can reach us by phone at 1-800-955-5080. We answer the phone
+          8:30AM to 5PM EST. Monday through Friday.</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- /footr -->
+
+    <!-- social icons -->
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-social>
+          <mj-social-element
+            href="https://www.instagram.com/savannahbeeco/"
+            name="instagram"
+          ></mj-social-element>
+          <mj-social-element
+            href="https://www.facebook.com/savannahbeecompany/"
+            name="facebook"
+          ></mj-social-element>
+          <mj-social-element
+            href="https://www.pinterest.com/savannahbeeco/"
+            name="pinterest"
+          ></mj-social-element>
+          <mj-social-element
+            href="https://www.youtube.com/c/SavannahbeeCo"
+            name="youtube"
+          ></mj-social-element>
+          <mj-social-element
+            href="https://www.linkedin.com/company/savannah-bee-company/"
+            name="linkedin"
+          ></mj-social-element>
+          <mj-social-element
+            href="https://twitter.com/SavannahBeeCo/"
+            name="twitter"
+          ></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <!-- /social icons -->
+
+    <!-- end footr -->
+    <mj-section background-color="#B6BADA" padding="0">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="11px"
+          font-weight="500"
+          color="#FFFFFF"
+          >Savannah Bee Company © 2023 All Rights Reserved</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- /end footr -->
+
     <!-- /footer -->
   </mj-body>
 </mjml>
