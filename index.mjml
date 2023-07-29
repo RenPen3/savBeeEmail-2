@@ -1,38 +1,33 @@
 <mjml>
   <mj-head>
-    <mj-attributes> </mj-attributes>
+    <mj-title>MJML Email #2</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Montserrat"></mj-all>
+      <mj-social-element background-color="#002855" icon-size="30px" padding="10px">
+      </mj-social-element>
+      <mj-style>
+        .mjclass div {
+          padding: 0 !important;
+        }
+      </mj-style>
+    </mj-attributes>
   </mj-head>
   <mj-body background-color="lightgrey">
     <mj-section background-color="#FFFFFF" padding="8px">
       <mj-column>
-        <mj-image
-          width="80px"
-          src="//savannahbee.com/cdn/shop/files/bee.png?v=1657870457"
-        />
+        <mj-image href="https://savannahbee.com/" width="80px" src="//savannahbee.com/cdn/shop/files/bee.png?v=1657870457" />
       </mj-column>
     </mj-section>
     <!-- hero -->
-    <mj-hero
-      mode="fixed-height"
-      background-color="#F4F4F4"
-      background-url="img/beauty_gifts_Opt.jpg"
-      height="400px"
-      background-width="600px"
-      background-height="9px"
-      padding="120px 0"
-    >
-      <mj-text align="center" color="#FFFFFF" font-size="36px" font-weight="500"
-        >* SAVANNAH BEE COMPANY *</mj-text
-      >
-      <mj-text align="center" color="#FFFFFF" font-size="24px"
-        >HEALTH & BEAUTY</mj-text
-      >
+    <mj-hero mode="fixed-height" background-color="#F4F4F4" background-url="img/beauty_gifts_Opt.jpg" height="400px" background-width="600px" background-height="9px" padding="120px 0">
+      <mj-text align="center" color="#FFFFFF" font-size="36px" font-weight="500">* SAVANNAH BEE COMPANY *</mj-text>
+      <mj-text align="center" color="#FFFFFF" font-size="24px">HEALTH & BEAUTY</mj-text>
     </mj-hero>
     <!-- /hero -->
 
     <mj-section background-color="#FFFFFF">
       <mj-column>
-        <mj-image width="180px" src="img/beauty_gifts_3.jpg"></mj-image>
+        <mj-image href="https://savannahbee.com/collections/gifts" width="180px" src="img/beauty_gifts_3.jpg"></mj-image>
         <!-- <mj-text align="center" font-size="24px">Gifts</mj-text> -->
         <!-- <mj-text align="center" font-size="12px"
           >Show off your excellent taste with gifts from Savannah Bee Co.!
@@ -45,13 +40,12 @@
     </mj-section>
 
     <mj-section background-color="#FFFFFF">
-      <mj-column padding="0 20px">
-        <mj-image width="50px" src="img/savBee_solo_logo.png" />
+      <mj-column padding="0 20px 40px 20px">
+        <mj-image href="https://savannahbee.com/collections/health-beauty" width="50px" src="img/savBee_solo_logo.png" />
 
         <mj-text align="center" font-size="18px">Featured Products</mj-text>
         <mj-text align="center" font-size="32px">Health & Beauty</mj-text>
-        <mj-text align="center" font-size="14px"
-          >We believe health and beauty originate in nature. Our products are
+        <mj-text align="center" font-size="14px">We believe health and beauty originate in nature. Our products are
           backed by research and designed to gently cleanse, hydrate, and soften
           skin with the power of beeswax, royal jelly, honey, and propolis
           straight from the hive. Bee well. Feel well. Do well.
@@ -60,89 +54,93 @@
     </mj-section>
 
     <!-- products -->
-    <mj-section background-color="#FFFFFF" padding="40px 0 0 0">
-      <mj-group>
-        <mj-column background-color="#f4f4f4" padding="50px 0">
-          <mj-image width="150px" src="img/body_care_3.webp"></mj-image>
-        </mj-column>
-        <mj-column padding="50px 0">
-          <mj-text font-size="16px" font-weight="500" align="center"
-            >Body Care</mj-text
-          >
-          <mj-text align="center"
-            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
-          >
-        </mj-column>
-      </mj-group>
-    </mj-section>
 
-    <mj-section background-color="#FFFFFF" padding="0">
+    <!-- body care -->
+    <mj-section background-color="#F4F4F4" padding="60px 30px 0 30px">
       <mj-group>
-        <mj-column padding="50px 0">
-          <mj-text font-size="16px" font-weight="500" align="center"
-            >Lip Care</mj-text
-          >
-          <mj-text align="center"
-            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
-          >
+        <mj-column>
+          <mj-image padding="0" width="300px" src="img/body_care_3.webp"></mj-image>
         </mj-column>
-        <mj-column background-color="#f4f4f4" padding="50px 0">
-          <mj-image width="150px" src="img/lip_care.webp"></mj-image>
+        <mj-column css-class="mjclass" background-color="#F4F4F4" padding="0">
+          <mj-text font-size="16px" font-weight="500" align="center">Body Care</mj-text>
+          <mj-text css-class="description-text" line-height="1.4" font-size="14px" align="left">Gently cleanse, hydrate, and soften skin with the power of beeswax,
+            royal jelly, honey, and propolis straight from the hive. Naturally,
+            Savannah Bee Co. body care products meet multiple industry standards
+            for purity, are free of parabens and other harmful chemicals, and
+            are never, ever tested on animals.</mj-text>
+          <mj-button href="https://savannahbee.com/collections/body-care" color="#002855" background-color="transparent" font-weight="500" align="left" padding="0">Learn more...</mj-button>
         </mj-column>
       </mj-group>
     </mj-section>
+    <!-- /body care -->
 
-    <mj-section background-color="#FFFFFF" padding="0">
+    <!-- lip care -->
+    <mj-section background-color="#F4F4F4" padding="0 30px 0 30px">
       <mj-group>
-        <mj-column background-color="#f4f4f4" padding="50px 0">
-          <mj-image width="150px" src="img/skin_care_2.webp"></mj-image>
+        <mj-column padding="0 0 60px 0" background-color="#F4F4F4">
+          <mj-text font-size="16px" font-weight="500" align="center">Lip Care</mj-text>
+          <mj-text line-height="1.4" font-size="14px" align="left">It’s been a couple of decades since Ted made those first Savannah
+            Bee Co. lip balms in a dented Crockpot, but we’re still using the
+            same bee-sourced, high-quality ingredients to soften and protect
+            your smile. Try them in every honey-kissed flavor, from Rosemary
+            Lavender to Sweet Tea.</mj-text>
+          <mj-button href="https://savannahbee.com/collections/lip-care" color="#002855" background-color="transparent" font-weight="500" align="left" padding="0">Learn more...</mj-button>
         </mj-column>
-        <mj-column padding="50px 0">
-          <mj-text font-size="16px" font-weight="500" align="center"
-            >Skin Care</mj-text
-          >
-          <mj-text align="center"
-            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
-          >
+        <mj-column background-color="red">
+          <mj-image padding="0" width="300px" src="img/lip_care.webp"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
+    <!-- /lip care -->
 
-    <mj-section background-color="#FFFFFF" padding="0">
+    <!-- skin care -->
+    <mj-section background-color="#F4F4F4" padding="0 30px 0 30px">
       <mj-group>
-        <mj-column padding="50px 0">
-          <mj-text font-size="16px" font-weight="500" align="center"
-            >Wellness</mj-text
-          >
-          <mj-text align="center"
-            >Product Dscription: Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text
-          >
+        <mj-column padding="0" background-color="red">
+          <mj-image padding="0" width="300px" src="img/skin_care_2.webp"></mj-image>
         </mj-column>
-        <mj-column background-color="#f4f4f4" padding="50px 0">
-          <mj-image width="150px" src="img/wellness_3.webp"></mj-image>
+
+        <mj-column padding="0 0 236px 0" background-color="#F4F4F4">
+          <mj-text font-size="16px" font-weight="500" align="center">Skin Care</mj-text>
+          <mj-text align="left">Product Dscription: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text>
+          <mj-button href="https://savannahbee.com/collections/skin-care" color="#002855" background-color="transparent" font-weight="500" align="left" padding="0">Learn more...</mj-button>
         </mj-column>
       </mj-group>
     </mj-section>
+    <!-- /skin care -->
+
+    <!-- welness care -->
+    <mj-section background-color="#F4F4F4" padding="0 30px 60px 30px">
+      <mj-group>
+        <mj-column padding="0 0 60px 0" background-color="#F4F4F4">
+          <mj-text font-size="16px" font-weight="500" align="center">Wellness</mj-text>
+          <mj-text line-height="1.4" font-size="14px" align="left">Product Dscription: Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</mj-text>
+          <mj-button href="https://savannahbee.com/collections/wellness" color="#002855" background-color="transparent" font-weight="500" align="left" padding="0">Learn more...</mj-button>
+        </mj-column>
+        <mj-column background-color="red" padding="0">
+          <mj-image padding="0" width="300px" src="img/wellness_3.webp"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- /welness care -->
+
     <!-- /products -->
 
+    <!-- CTA -->
     <mj-section background-color="#FFFFFF">
       <mj-column padding="50px">
-        <mj-button
-          background-color="#FFFFFF"
-          border="1px solid #002855"
-          color="#002855"
-          align="center"
-          font-size="16px"
-          >Get Shopping Now</mj-button
-        >
+        <mj-button href="https://savannahbee.com/collections/health-beauty" background-color="#FFFFFF" border="1px solid #002855" color="#002855" align="center" font-size="16px">Get Shopping Now</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /CTA -->
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-text align="center">IMAGE</mj-text>
       </mj-column>
     </mj-section>
 
@@ -154,47 +152,29 @@
       background-height="9px"
       padding="180px 0 100px 0"
     > -->
-    <mj-section background-color="#FFFFFF">
-      <mj-column background-color="#FFFFFF">
-        <mj-text
-          line-height="1.2"
-          font-size="26px"
-          align="center"
-          color="#000000"
-          >Our mission has always been about the bees.</mj-text
-        >
-        <mj-text
-          padding="40px 20px 40px 20px"
-          line-height="1.5"
-          font-size="18px"
-          align="center"
-          color="#000000"
-          >With each jar of honey, bee-powered beauty product, and cultivated
+    <mj-section background-color="#F4F4F4">
+      <mj-column width="500px" padding="30px" border="1px solid #000" background-color="#F4F4F4">
+        <mj-text line-height="1.2" font-size="26px" align="center" color="#000000">Our mission has always been about the bees.</mj-text>
+        <mj-text padding="40px 20px 40px 20px" line-height="1.5" font-size="18px" align="center" color="#000000">With each jar of honey, bee-powered beauty product, and cultivated
           hive, we’re working to save the bees. And with every purchase from
-          Savannah Bee Company –you are too.</mj-text
-        >
+          Savannah Bee Company –you are too.</mj-text>
 
-        <mj-button
-          color="#002855"
-          background-color="#FFFFFF"
-          border="1px solid #002855"
-          >Learn More</mj-button
-        >
+        <mj-button href="https://savannahbee.com/pages/our-story" color="#FFFFFF" background-color="#002855">Learn more...</mj-button>
       </mj-column>
     </mj-section>
 
     <!-- </mj-hero> -->
 
     <!-- footer -->
-    <mj-section background-color="#FFFFFF">
+    <mj-section background-color="#FFFFFF" padding="80px 0 0 0">
       <mj-column background-color="#FFFFFF">
         <mj-image width="70px" src="img/savBee_solo_logo.png" />
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#FFFFFF">
-      <mj-column background-color="#FFFFFF" padding="0">
-        <mj-text align="center">#SAVETHEBEES</mj-text>
+    <mj-section background-color="#FFFFFF" padding="0 0 40px 0">
+      <mj-column background-color="#FFFFFF">
+        <mj-text align="center" font-weight="500">#SAVETHEBEES</mj-text>
       </mj-column>
     </mj-section>
 
@@ -205,44 +185,15 @@
     </mj-section> -->
     <mj-section background-color="#FFFFFF" padding="10px 20px 20px 20px">
       <mj-column>
-        <mj-text
-          line-height="0.5"
-          font-family="Typeka"
-          align="center"
-          font-size="20px"
-          font-weight="500"
-          color="#002855"
-          >Contact</mj-text
-        >
-        <mj-text
-          padding-bottom="30px"
-          line-height="1.5"
-          align="center"
-          font-size="16px"
-          color="#002855"
-          >Manager: Monica Kenyon <br />
+        <mj-text line-height="0.5" font-family="Typeka" align="center" font-size="20px" font-weight="500" color="#002855">Contact</mj-text>
+        <mj-text padding-bottom="30px" line-height="1.5" align="center" font-size="16px" color="#002855">Manager: Monica Kenyon <br />
           Email: monica@savannahbee.com <br />
-          Phone: (928) 862-2996</mj-text
-        >
-        <mj-text
-          line-height="0.5"
-          font-family="Typeka"
-          align="center"
-          font-size="20px"
-          font-weight="500"
-          color="#002855"
-          >Address</mj-text
-        >
-        <mj-text
-          line-height="1.5"
-          align="center"
-          font-size="16px"
-          color="#002855"
-          >390 N State Route 89A <br />
+          Phone: (928) 862-2996</mj-text>
+        <mj-text line-height="0.5" font-family="Typeka" align="center" font-size="20px" font-weight="500" color="#002855">Address</mj-text>
+        <mj-text line-height="1.5" align="center" font-size="16px" color="#002855">390 N State Route 89A <br />
           Sedona, AZ 8633 <br />
           You can reach us by phone at 1-800-955-5080. We answer the phone
-          8:30AM to 5PM EST. Monday through Friday.</mj-text
-        >
+          8:30AM to 5PM EST. Monday through Friday.</mj-text>
       </mj-column>
     </mj-section>
     <!-- /footr -->
@@ -251,30 +202,12 @@
     <mj-section background-color="#FFFFFF">
       <mj-column>
         <mj-social>
-          <mj-social-element
-            href="https://www.instagram.com/savannahbeeco/"
-            name="instagram"
-          ></mj-social-element>
-          <mj-social-element
-            href="https://www.facebook.com/savannahbeecompany/"
-            name="facebook"
-          ></mj-social-element>
-          <mj-social-element
-            href="https://www.pinterest.com/savannahbeeco/"
-            name="pinterest"
-          ></mj-social-element>
-          <mj-social-element
-            href="https://www.youtube.com/c/SavannahbeeCo"
-            name="youtube"
-          ></mj-social-element>
-          <mj-social-element
-            href="https://www.linkedin.com/company/savannah-bee-company/"
-            name="linkedin"
-          ></mj-social-element>
-          <mj-social-element
-            href="https://twitter.com/SavannahBeeCo/"
-            name="twitter"
-          ></mj-social-element>
+          <mj-social-element href="https://www.instagram.com/savannahbeeco/" name="instagram"></mj-social-element>
+          <mj-social-element href="https://www.facebook.com/savannahbeecompany/" name="facebook"></mj-social-element>
+          <mj-social-element href="https://www.pinterest.com/savannahbeeco/" name="pinterest"></mj-social-element>
+          <mj-social-element href="https://www.youtube.com/c/SavannahbeeCo" name="youtube"></mj-social-element>
+          <mj-social-element href="https://www.linkedin.com/company/savannah-bee-company/" name="linkedin"></mj-social-element>
+          <mj-social-element href="https://twitter.com/SavannahBeeCo/" name="twitter"></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
@@ -283,13 +216,7 @@
     <!-- end footr -->
     <mj-section background-color="#B6BADA" padding="0">
       <mj-column>
-        <mj-text
-          align="center"
-          font-size="11px"
-          font-weight="500"
-          color="#FFFFFF"
-          >Savannah Bee Company © 2023 All Rights Reserved</mj-text
-        >
+        <mj-text align="center" font-size="11px" font-weight="500" color="#002855">Savannah Bee Company © 2023 All Rights Reserved</mj-text>
       </mj-column>
     </mj-section>
     <!-- /end footr -->
